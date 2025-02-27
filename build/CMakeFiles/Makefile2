@@ -64,11 +64,13 @@ CMAKE_BINARY_DIR = /Users/pranavsharan/Developer/midiverse/build
 
 # The main recursive "all" target.
 all: CMakeFiles/midiverse.dir/all
+all: CMakeFiles/midiverse_cli.dir/all
 all: tests/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/midiverse.dir/codegen
+codegen: CMakeFiles/midiverse_cli.dir/codegen
 codegen: tests/codegen
 .PHONY : codegen
 
@@ -78,6 +80,7 @@ preinstall: tests/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/midiverse.dir/clean
+clean: CMakeFiles/midiverse_cli.dir/clean
 clean: tests/clean
 .PHONY : clean
 
@@ -133,13 +136,45 @@ CMakeFiles/midiverse.dir/clean:
 .PHONY : CMakeFiles/midiverse.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/midiverse_cli.dir
+
+# All Build rule for target.
+CMakeFiles/midiverse_cli.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=7,8,9,10,11 "Built target midiverse_cli"
+.PHONY : CMakeFiles/midiverse_cli.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/midiverse_cli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/midiverse_cli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 0
+.PHONY : CMakeFiles/midiverse_cli.dir/rule
+
+# Convenience name for target.
+midiverse_cli: CMakeFiles/midiverse_cli.dir/rule
+.PHONY : midiverse_cli
+
+# codegen rule for target.
+CMakeFiles/midiverse_cli.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=7,8,9,10,11 "Finished codegen for target midiverse_cli"
+.PHONY : CMakeFiles/midiverse_cli.dir/codegen
+
+# clean rule for target.
+CMakeFiles/midiverse_cli.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/clean
+.PHONY : CMakeFiles/midiverse_cli.dir/clean
+
+#=============================================================================
 # Target rules for target tests/CMakeFiles/simple_server.dir
 
 # All Build rule for target.
 tests/CMakeFiles/simple_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/simple_server.dir/build.make tests/CMakeFiles/simple_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/simple_server.dir/build.make tests/CMakeFiles/simple_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=7,8 "Built target simple_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=12,13 "Built target simple_server"
 .PHONY : tests/CMakeFiles/simple_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -156,7 +191,7 @@ simple_server: tests/CMakeFiles/simple_server.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/simple_server.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/simple_server.dir/build.make tests/CMakeFiles/simple_server.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=7,8 "Finished codegen for target simple_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=12,13 "Finished codegen for target simple_server"
 .PHONY : tests/CMakeFiles/simple_server.dir/codegen
 
 # clean rule for target.

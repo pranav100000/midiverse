@@ -148,5 +148,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/midiverse.dir/DependInfo.cmake"
+  "CMakeFiles/midiverse_cli.dir/DependInfo.cmake"
   "tests/CMakeFiles/simple_server.dir/DependInfo.cmake"
   )

@@ -175,6 +175,19 @@ midiverse/fast:
 .PHONY : midiverse/fast
 
 #=============================================================================
+# Target rules for targets named midiverse_cli
+
+# Build rule for target.
+midiverse_cli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 midiverse_cli
+.PHONY : midiverse_cli
+
+# fast build rule for target.
+midiverse_cli/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/build
+.PHONY : midiverse_cli/fast
+
+#=============================================================================
 # Target rules for targets named simple_server
 
 # Build rule for target.
@@ -187,12 +200,37 @@ simple_server/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/simple_server.dir/build.make tests/CMakeFiles/simple_server.dir/build
 .PHONY : simple_server/fast
 
+cli/midiverse_cli.o: cli/midiverse_cli.cpp.o
+.PHONY : cli/midiverse_cli.o
+
+# target to build an object file
+cli/midiverse_cli.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/cli/midiverse_cli.cpp.o
+.PHONY : cli/midiverse_cli.cpp.o
+
+cli/midiverse_cli.i: cli/midiverse_cli.cpp.i
+.PHONY : cli/midiverse_cli.i
+
+# target to preprocess a source file
+cli/midiverse_cli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/cli/midiverse_cli.cpp.i
+.PHONY : cli/midiverse_cli.cpp.i
+
+cli/midiverse_cli.s: cli/midiverse_cli.cpp.s
+.PHONY : cli/midiverse_cli.s
+
+# target to generate assembly for a file
+cli/midiverse_cli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/cli/midiverse_cli.cpp.s
+.PHONY : cli/midiverse_cli.cpp.s
+
 src/audio_writer.o: src/audio_writer.cpp.o
 .PHONY : src/audio_writer.o
 
 # target to build an object file
 src/audio_writer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/audio_writer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/audio_writer.cpp.o
 .PHONY : src/audio_writer.cpp.o
 
 src/audio_writer.i: src/audio_writer.cpp.i
@@ -201,6 +239,7 @@ src/audio_writer.i: src/audio_writer.cpp.i
 # target to preprocess a source file
 src/audio_writer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/audio_writer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/audio_writer.cpp.i
 .PHONY : src/audio_writer.cpp.i
 
 src/audio_writer.s: src/audio_writer.cpp.s
@@ -209,6 +248,7 @@ src/audio_writer.s: src/audio_writer.cpp.s
 # target to generate assembly for a file
 src/audio_writer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/audio_writer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/audio_writer.cpp.s
 .PHONY : src/audio_writer.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -241,6 +281,7 @@ src/midi_processor.o: src/midi_processor.cpp.o
 # target to build an object file
 src/midi_processor.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/midi_processor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/midi_processor.cpp.o
 .PHONY : src/midi_processor.cpp.o
 
 src/midi_processor.i: src/midi_processor.cpp.i
@@ -249,6 +290,7 @@ src/midi_processor.i: src/midi_processor.cpp.i
 # target to preprocess a source file
 src/midi_processor.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/midi_processor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/midi_processor.cpp.i
 .PHONY : src/midi_processor.cpp.i
 
 src/midi_processor.s: src/midi_processor.cpp.s
@@ -257,6 +299,7 @@ src/midi_processor.s: src/midi_processor.cpp.s
 # target to generate assembly for a file
 src/midi_processor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/midi_processor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/midi_processor.cpp.s
 .PHONY : src/midi_processor.cpp.s
 
 src/server.o: src/server.cpp.o
@@ -289,6 +332,7 @@ src/vst_renderer.o: src/vst_renderer.cpp.o
 # target to build an object file
 src/vst_renderer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/vst_renderer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/vst_renderer.cpp.o
 .PHONY : src/vst_renderer.cpp.o
 
 src/vst_renderer.i: src/vst_renderer.cpp.i
@@ -297,6 +341,7 @@ src/vst_renderer.i: src/vst_renderer.cpp.i
 # target to preprocess a source file
 src/vst_renderer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/vst_renderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/vst_renderer.cpp.i
 .PHONY : src/vst_renderer.cpp.i
 
 src/vst_renderer.s: src/vst_renderer.cpp.s
@@ -305,6 +350,7 @@ src/vst_renderer.s: src/vst_renderer.cpp.s
 # target to generate assembly for a file
 src/vst_renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/src/vst_renderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/src/vst_renderer.cpp.s
 .PHONY : src/vst_renderer.cpp.s
 
 # Help Target
@@ -320,7 +366,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... midiverse"
+	@echo "... midiverse_cli"
 	@echo "... simple_server"
+	@echo "... cli/midiverse_cli.o"
+	@echo "... cli/midiverse_cli.i"
+	@echo "... cli/midiverse_cli.s"
 	@echo "... src/audio_writer.o"
 	@echo "... src/audio_writer.i"
 	@echo "... src/audio_writer.s"

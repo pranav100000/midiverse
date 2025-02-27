@@ -52,3 +52,25 @@ install(TARGETS midiverse DESTINATION bin)
 
 # Tests
 add_subdirectory(tests)
+
+# CLI Tool
+add_executable(midiverse_cli cli/midiverse_cli.cpp
+    src/midi_processor.cpp
+    src/vst_renderer.cpp
+    src/audio_writer.cpp
+)
+
+target_link_libraries(midiverse_cli PRIVATE 
+    Threads::Threads
+)
+
+if(USE_JUCE)
+    target_link_libraries(midiverse_cli PRIVATE
+        juce::juce_audio_utils
+        juce::juce_audio_processors
+    )
+endif()
+
+if(APPLE)
+    target_link_libraries(midiverse_cli PRIVATE "-framework CoreFoundation" "-framework CoreAudio" "-framework AudioToolbox")
+endif()
