@@ -6,6 +6,19 @@ A C++ tool that renders MIDI files to audio using VST plugins.
 
 Midiverse allows you to convert MIDI files to audio by processing them through VST plugins (or using a fallback sine wave generator). It provides both a command-line interface and Python wrapper for easy integration.
 
+**Quick start with Docker:**
+```bash
+# Set up the environment
+./docker_setup.sh
+
+# Build the Docker image
+docker compose build
+
+# Run Midiverse (generates a test MIDI file and processes it)
+docker compose run --rm midiverse python3 /app/input/generate_test_midi.py
+docker compose run --rm midiverse /app/input/test_scale.mid /app/input/dummy.vst -o /app/output/result.wav
+```
+
 ## Features
 
 - Process MIDI files through VST plugins
@@ -54,7 +67,40 @@ make
 
 ## Usage
 
-### Command Line Interface
+### Docker (Recommended for Portability)
+
+Midiverse can run in a Docker container, making it easy to use across different platforms without worrying about dependencies.
+
+1. **Build the Docker image:**
+   ```bash
+   docker compose build
+   ```
+
+2. **Create input/output directories:**
+   ```bash
+   mkdir -p input output
+   ```
+
+3. **Generate a test MIDI file:**
+   ```bash
+   # Copy the test file generator to input directory
+   cp examples/generate_test_midi.py input/
+   
+   # Run it in the container
+   docker compose run --rm midiverse python3 /app/input/generate_test_midi.py
+   
+   # Create a dummy VST file for testing
+   touch input/dummy.vst
+   ```
+
+4. **Process a MIDI file:**
+   ```bash
+   docker compose run --rm midiverse /app/input/test_scale.mid /app/input/dummy.vst -o /app/output/result.wav
+   ```
+
+The rendered audio file will be available in your local `output` directory.
+
+### Command Line Interface (Local Installation)
 
 Use the CLI tool directly:
 

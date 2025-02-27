@@ -9,7 +9,7 @@ namespace juce {
     class AudioPluginFormatManager;
     class AudioPluginInstance;
     class MidiFile;
-    class AudioBuffer;
+    template <typename T> class AudioBuffer;
 }
 
 class VstRenderer {

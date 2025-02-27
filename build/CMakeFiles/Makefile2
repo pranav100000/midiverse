@@ -65,24 +65,108 @@ CMAKE_BINARY_DIR = /Users/pranavsharan/Developer/midiverse/build
 # The main recursive "all" target.
 all: CMakeFiles/midiverse.dir/all
 all: CMakeFiles/midiverse_cli.dir/all
+all: lib/JUCE/all
 all: tests/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/midiverse.dir/codegen
 codegen: CMakeFiles/midiverse_cli.dir/codegen
+codegen: lib/JUCE/codegen
 codegen: tests/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
+preinstall: lib/JUCE/preinstall
 preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/midiverse.dir/clean
 clean: CMakeFiles/midiverse_cli.dir/clean
+clean: lib/JUCE/clean
 clean: tests/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib/JUCE
+
+# Recursive "all" directory target.
+lib/JUCE/all: lib/JUCE/modules/all
+lib/JUCE/all: lib/JUCE/extras/Build/all
+.PHONY : lib/JUCE/all
+
+# Recursive "codegen" directory target.
+lib/JUCE/codegen: lib/JUCE/modules/codegen
+lib/JUCE/codegen: lib/JUCE/extras/Build/codegen
+.PHONY : lib/JUCE/codegen
+
+# Recursive "preinstall" directory target.
+lib/JUCE/preinstall: lib/JUCE/modules/preinstall
+lib/JUCE/preinstall: lib/JUCE/extras/Build/preinstall
+.PHONY : lib/JUCE/preinstall
+
+# Recursive "clean" directory target.
+lib/JUCE/clean: lib/JUCE/modules/clean
+lib/JUCE/clean: lib/JUCE/extras/Build/clean
+.PHONY : lib/JUCE/clean
+
+#=============================================================================
+# Directory level rules for directory lib/JUCE/extras/Build
+
+# Recursive "all" directory target.
+lib/JUCE/extras/Build/all: lib/JUCE/extras/Build/juceaide/all
+.PHONY : lib/JUCE/extras/Build/all
+
+# Recursive "codegen" directory target.
+lib/JUCE/extras/Build/codegen: lib/JUCE/extras/Build/juceaide/codegen
+.PHONY : lib/JUCE/extras/Build/codegen
+
+# Recursive "preinstall" directory target.
+lib/JUCE/extras/Build/preinstall: lib/JUCE/extras/Build/juceaide/preinstall
+.PHONY : lib/JUCE/extras/Build/preinstall
+
+# Recursive "clean" directory target.
+lib/JUCE/extras/Build/clean: lib/JUCE/extras/Build/juceaide/clean
+.PHONY : lib/JUCE/extras/Build/clean
+
+#=============================================================================
+# Directory level rules for directory lib/JUCE/extras/Build/juceaide
+
+# Recursive "all" directory target.
+lib/JUCE/extras/Build/juceaide/all:
+.PHONY : lib/JUCE/extras/Build/juceaide/all
+
+# Recursive "codegen" directory target.
+lib/JUCE/extras/Build/juceaide/codegen:
+.PHONY : lib/JUCE/extras/Build/juceaide/codegen
+
+# Recursive "preinstall" directory target.
+lib/JUCE/extras/Build/juceaide/preinstall:
+.PHONY : lib/JUCE/extras/Build/juceaide/preinstall
+
+# Recursive "clean" directory target.
+lib/JUCE/extras/Build/juceaide/clean:
+.PHONY : lib/JUCE/extras/Build/juceaide/clean
+
+#=============================================================================
+# Directory level rules for directory lib/JUCE/modules
+
+# Recursive "all" directory target.
+lib/JUCE/modules/all:
+.PHONY : lib/JUCE/modules/all
+
+# Recursive "codegen" directory target.
+lib/JUCE/modules/codegen:
+.PHONY : lib/JUCE/modules/codegen
+
+# Recursive "preinstall" directory target.
+lib/JUCE/modules/preinstall:
+.PHONY : lib/JUCE/modules/preinstall
+
+# Recursive "clean" directory target.
+lib/JUCE/modules/clean:
+.PHONY : lib/JUCE/modules/clean
 
 #=============================================================================
 # Directory level rules for directory tests
@@ -110,12 +194,12 @@ tests/clean: tests/CMakeFiles/simple_server.dir/clean
 CMakeFiles/midiverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target midiverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target midiverse"
 .PHONY : CMakeFiles/midiverse.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/midiverse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/midiverse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 0
 .PHONY : CMakeFiles/midiverse.dir/rule
@@ -127,7 +211,7 @@ midiverse: CMakeFiles/midiverse.dir/rule
 # codegen rule for target.
 CMakeFiles/midiverse.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target midiverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Finished codegen for target midiverse"
 .PHONY : CMakeFiles/midiverse.dir/codegen
 
 # clean rule for target.
@@ -142,12 +226,12 @@ CMakeFiles/midiverse.dir/clean:
 CMakeFiles/midiverse_cli.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=7,8,9,10,11 "Built target midiverse_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target midiverse_cli"
 .PHONY : CMakeFiles/midiverse_cli.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/midiverse_cli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/midiverse_cli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pranavsharan/Developer/midiverse/build/CMakeFiles 0
 .PHONY : CMakeFiles/midiverse_cli.dir/rule
@@ -159,7 +243,7 @@ midiverse_cli: CMakeFiles/midiverse_cli.dir/rule
 # codegen rule for target.
 CMakeFiles/midiverse_cli.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=7,8,9,10,11 "Finished codegen for target midiverse_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Finished codegen for target midiverse_cli"
 .PHONY : CMakeFiles/midiverse_cli.dir/codegen
 
 # clean rule for target.
@@ -174,7 +258,7 @@ CMakeFiles/midiverse_cli.dir/clean:
 tests/CMakeFiles/simple_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/simple_server.dir/build.make tests/CMakeFiles/simple_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/simple_server.dir/build.make tests/CMakeFiles/simple_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=12,13 "Built target simple_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=44,45 "Built target simple_server"
 .PHONY : tests/CMakeFiles/simple_server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +275,7 @@ simple_server: tests/CMakeFiles/simple_server.dir/rule
 # codegen rule for target.
 tests/CMakeFiles/simple_server.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/simple_server.dir/build.make tests/CMakeFiles/simple_server.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=12,13 "Finished codegen for target simple_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=44,45 "Finished codegen for target simple_server"
 .PHONY : tests/CMakeFiles/simple_server.dir/codegen
 
 # clean rule for target.
@@ -206,6 +290,7 @@ tests/CMakeFiles/simple_server.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/pranavsharan/Developer/midiverse/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

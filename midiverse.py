@@ -21,7 +21,16 @@ def main():
     
     # Get the path to the midiverse_cli executable
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    cli_path = os.path.join(script_dir, 'build', 'midiverse_cli')
+    
+    # Check if we're in Docker (look for build directory structure)
+    if os.path.exists(os.path.join(script_dir, 'build', 'midiverse_cli')):
+        cli_path = os.path.join(script_dir, 'build', 'midiverse_cli')
+    elif os.path.exists(os.path.join(script_dir, 'midiverse_cli')):
+        # In Docker, the executable might be directly in /app/build/
+        cli_path = os.path.join(script_dir, 'midiverse_cli')
+    else:
+        # Fallback to standard path in Docker container
+        cli_path = '/app/build/midiverse_cli'
     
     # Build the command
     cmd = [cli_path, args.midi_file, args.vst_path]

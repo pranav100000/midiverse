@@ -1,0 +1,24 @@
+# Git files
+.git
+.gitignore
+
+# Build directories
+build/
+output/
+
+# IDE files
+.vscode/
+.idea/
+
+# Generated files
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.wav
+*.mid
+
+# Input/output directories (will be mounted as volumes)
+input/
+output/
