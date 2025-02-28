@@ -158,6 +158,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P /Users/pranavsharan/Developer/midiverse/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -223,6 +224,438 @@ cli/midiverse_cli.s: cli/midiverse_cli.cpp.s
 cli/midiverse_cli.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/cli/midiverse_cli.cpp.s
 .PHONY : cli/midiverse_cli.cpp.s
+
+lib/JUCE/modules/juce_audio_basics/juce_audio_basics.o: lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_basics/juce_audio_basics.o
+
+# target to build an object file
+lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+
+lib/JUCE/modules/juce_audio_basics/juce_audio_basics.i: lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_basics/juce_audio_basics.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+
+lib/JUCE/modules/juce_audio_basics/juce_audio_basics.s: lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_basics/juce_audio_basics.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+
+lib/JUCE/modules/juce_audio_devices/juce_audio_devices.o: lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_devices/juce_audio_devices.o
+
+# target to build an object file
+lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
+
+lib/JUCE/modules/juce_audio_devices/juce_audio_devices.i: lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_devices/juce_audio_devices.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+
+lib/JUCE/modules/juce_audio_devices/juce_audio_devices.s: lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_devices/juce_audio_devices.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+
+lib/JUCE/modules/juce_audio_formats/juce_audio_formats.o: lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_formats/juce_audio_formats.o
+
+# target to build an object file
+lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+
+lib/JUCE/modules/juce_audio_formats/juce_audio_formats.i: lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_formats/juce_audio_formats.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+
+lib/JUCE/modules/juce_audio_formats/juce_audio_formats.s: lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_formats/juce_audio_formats.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors.o: lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors.o
+
+# target to build an object file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors.i: lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors.s: lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o: lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o
+
+# target to build an object file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i: lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s: lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o: lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o
+
+# target to build an object file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i: lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s: lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+.PHONY : lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+
+lib/JUCE/modules/juce_audio_utils/juce_audio_utils.o: lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_utils/juce_audio_utils.o
+
+# target to build an object file
+lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+.PHONY : lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+
+lib/JUCE/modules/juce_audio_utils/juce_audio_utils.i: lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_utils/juce_audio_utils.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+.PHONY : lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+
+lib/JUCE/modules/juce_audio_utils/juce_audio_utils.s: lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_utils/juce_audio_utils.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+.PHONY : lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+
+lib/JUCE/modules/juce_core/juce_core.o: lib/JUCE/modules/juce_core/juce_core.mm.o
+.PHONY : lib/JUCE/modules/juce_core/juce_core.o
+
+# target to build an object file
+lib/JUCE/modules/juce_core/juce_core.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_core/juce_core.mm.o
+.PHONY : lib/JUCE/modules/juce_core/juce_core.mm.o
+
+lib/JUCE/modules/juce_core/juce_core.i: lib/JUCE/modules/juce_core/juce_core.mm.i
+.PHONY : lib/JUCE/modules/juce_core/juce_core.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_core/juce_core.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_core/juce_core.mm.i
+.PHONY : lib/JUCE/modules/juce_core/juce_core.mm.i
+
+lib/JUCE/modules/juce_core/juce_core.s: lib/JUCE/modules/juce_core/juce_core.mm.s
+.PHONY : lib/JUCE/modules/juce_core/juce_core.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_core/juce_core.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_core/juce_core.mm.s
+.PHONY : lib/JUCE/modules/juce_core/juce_core.mm.s
+
+lib/JUCE/modules/juce_core/juce_core_CompilationTime.o: lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+.PHONY : lib/JUCE/modules/juce_core/juce_core_CompilationTime.o
+
+# target to build an object file
+lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+.PHONY : lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+
+lib/JUCE/modules/juce_core/juce_core_CompilationTime.i: lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+.PHONY : lib/JUCE/modules/juce_core/juce_core_CompilationTime.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+.PHONY : lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+
+lib/JUCE/modules/juce_core/juce_core_CompilationTime.s: lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+.PHONY : lib/JUCE/modules/juce_core/juce_core_CompilationTime.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+.PHONY : lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+
+lib/JUCE/modules/juce_data_structures/juce_data_structures.o: lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+.PHONY : lib/JUCE/modules/juce_data_structures/juce_data_structures.o
+
+# target to build an object file
+lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+.PHONY : lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+
+lib/JUCE/modules/juce_data_structures/juce_data_structures.i: lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+.PHONY : lib/JUCE/modules/juce_data_structures/juce_data_structures.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+.PHONY : lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+
+lib/JUCE/modules/juce_data_structures/juce_data_structures.s: lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+.PHONY : lib/JUCE/modules/juce_data_structures/juce_data_structures.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+.PHONY : lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+
+lib/JUCE/modules/juce_events/juce_events.o: lib/JUCE/modules/juce_events/juce_events.mm.o
+.PHONY : lib/JUCE/modules/juce_events/juce_events.o
+
+# target to build an object file
+lib/JUCE/modules/juce_events/juce_events.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_events/juce_events.mm.o
+.PHONY : lib/JUCE/modules/juce_events/juce_events.mm.o
+
+lib/JUCE/modules/juce_events/juce_events.i: lib/JUCE/modules/juce_events/juce_events.mm.i
+.PHONY : lib/JUCE/modules/juce_events/juce_events.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_events/juce_events.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_events/juce_events.mm.i
+.PHONY : lib/JUCE/modules/juce_events/juce_events.mm.i
+
+lib/JUCE/modules/juce_events/juce_events.s: lib/JUCE/modules/juce_events/juce_events.mm.s
+.PHONY : lib/JUCE/modules/juce_events/juce_events.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_events/juce_events.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_events/juce_events.mm.s
+.PHONY : lib/JUCE/modules/juce_events/juce_events.mm.s
+
+lib/JUCE/modules/juce_graphics/juce_graphics.o: lib/JUCE/modules/juce_graphics/juce_graphics.mm.o
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics.o
+
+# target to build an object file
+lib/JUCE/modules/juce_graphics/juce_graphics.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics.mm.o
+
+lib/JUCE/modules/juce_graphics/juce_graphics.i: lib/JUCE/modules/juce_graphics/juce_graphics.mm.i
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_graphics/juce_graphics.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.i
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics.mm.i
+
+lib/JUCE/modules/juce_graphics/juce_graphics.s: lib/JUCE/modules/juce_graphics/juce_graphics.mm.s
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_graphics/juce_graphics.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.s
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics.mm.s
+
+lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o: lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o
+
+# target to build an object file
+lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+
+lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i: lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+
+lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s: lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+
+lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o: lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o
+
+# target to build an object file
+lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+
+lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i: lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+
+lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s: lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+.PHONY : lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+
+lib/JUCE/modules/juce_gui_basics/juce_gui_basics.o: lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+.PHONY : lib/JUCE/modules/juce_gui_basics/juce_gui_basics.o
+
+# target to build an object file
+lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+.PHONY : lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+
+lib/JUCE/modules/juce_gui_basics/juce_gui_basics.i: lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+.PHONY : lib/JUCE/modules/juce_gui_basics/juce_gui_basics.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+.PHONY : lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+
+lib/JUCE/modules/juce_gui_basics/juce_gui_basics.s: lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+.PHONY : lib/JUCE/modules/juce_gui_basics/juce_gui_basics.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+.PHONY : lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+
+lib/JUCE/modules/juce_gui_extra/juce_gui_extra.o: lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+.PHONY : lib/JUCE/modules/juce_gui_extra/juce_gui_extra.o
+
+# target to build an object file
+lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+.PHONY : lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+
+lib/JUCE/modules/juce_gui_extra/juce_gui_extra.i: lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+.PHONY : lib/JUCE/modules/juce_gui_extra/juce_gui_extra.i
+
+# target to preprocess a source file
+lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+.PHONY : lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+
+lib/JUCE/modules/juce_gui_extra/juce_gui_extra.s: lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+.PHONY : lib/JUCE/modules/juce_gui_extra/juce_gui_extra.s
+
+# target to generate assembly for a file
+lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse.dir/build.make CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/midiverse_cli.dir/build.make CMakeFiles/midiverse_cli.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+.PHONY : lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
 
 src/audio_writer.o: src/audio_writer.cpp.o
 .PHONY : src/audio_writer.o
@@ -371,6 +804,54 @@ help:
 	@echo "... cli/midiverse_cli.o"
 	@echo "... cli/midiverse_cli.i"
 	@echo "... cli/midiverse_cli.s"
+	@echo "... lib/JUCE/modules/juce_audio_basics/juce_audio_basics.o"
+	@echo "... lib/JUCE/modules/juce_audio_basics/juce_audio_basics.i"
+	@echo "... lib/JUCE/modules/juce_audio_basics/juce_audio_basics.s"
+	@echo "... lib/JUCE/modules/juce_audio_devices/juce_audio_devices.o"
+	@echo "... lib/JUCE/modules/juce_audio_devices/juce_audio_devices.i"
+	@echo "... lib/JUCE/modules/juce_audio_devices/juce_audio_devices.s"
+	@echo "... lib/JUCE/modules/juce_audio_formats/juce_audio_formats.o"
+	@echo "... lib/JUCE/modules/juce_audio_formats/juce_audio_formats.i"
+	@echo "... lib/JUCE/modules/juce_audio_formats/juce_audio_formats.s"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors.o"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors.i"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors.s"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.o"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.i"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.s"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.o"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.i"
+	@echo "... lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.s"
+	@echo "... lib/JUCE/modules/juce_audio_utils/juce_audio_utils.o"
+	@echo "... lib/JUCE/modules/juce_audio_utils/juce_audio_utils.i"
+	@echo "... lib/JUCE/modules/juce_audio_utils/juce_audio_utils.s"
+	@echo "... lib/JUCE/modules/juce_core/juce_core.o"
+	@echo "... lib/JUCE/modules/juce_core/juce_core.i"
+	@echo "... lib/JUCE/modules/juce_core/juce_core.s"
+	@echo "... lib/JUCE/modules/juce_core/juce_core_CompilationTime.o"
+	@echo "... lib/JUCE/modules/juce_core/juce_core_CompilationTime.i"
+	@echo "... lib/JUCE/modules/juce_core/juce_core_CompilationTime.s"
+	@echo "... lib/JUCE/modules/juce_data_structures/juce_data_structures.o"
+	@echo "... lib/JUCE/modules/juce_data_structures/juce_data_structures.i"
+	@echo "... lib/JUCE/modules/juce_data_structures/juce_data_structures.s"
+	@echo "... lib/JUCE/modules/juce_events/juce_events.o"
+	@echo "... lib/JUCE/modules/juce_events/juce_events.i"
+	@echo "... lib/JUCE/modules/juce_events/juce_events.s"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics.o"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics.i"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics.s"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.o"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.i"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.s"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.o"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.i"
+	@echo "... lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.s"
+	@echo "... lib/JUCE/modules/juce_gui_basics/juce_gui_basics.o"
+	@echo "... lib/JUCE/modules/juce_gui_basics/juce_gui_basics.i"
+	@echo "... lib/JUCE/modules/juce_gui_basics/juce_gui_basics.s"
+	@echo "... lib/JUCE/modules/juce_gui_extra/juce_gui_extra.o"
+	@echo "... lib/JUCE/modules/juce_gui_extra/juce_gui_extra.i"
+	@echo "... lib/JUCE/modules/juce_gui_extra/juce_gui_extra.s"
 	@echo "... src/audio_writer.o"
 	@echo "... src/audio_writer.i"
 	@echo "... src/audio_writer.s"
@@ -397,6 +878,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /Users/pranavsharan/Developer/midiverse/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

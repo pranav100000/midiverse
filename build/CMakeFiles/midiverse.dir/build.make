@@ -142,13 +142,253 @@ CMakeFiles/midiverse.dir/src/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/src/server.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/src/server.cpp -o CMakeFiles/midiverse.dir/src/server.cpp.s
 
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_graphics/juce_graphics.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_events/juce_events.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_events/juce_events.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_events/juce_events.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_events/juce_events.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_core/juce_core.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.s
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: CMakeFiles/midiverse.dir/flags.make
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o: CMakeFiles/midiverse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o -MF CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o.d -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o -c /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm > CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.i
+
+CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/pranavsharan/Developer/midiverse/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm -o CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.s
+
 # Object files for target midiverse
 midiverse_OBJECTS = \
 "CMakeFiles/midiverse.dir/src/main.cpp.o" \
 "CMakeFiles/midiverse.dir/src/midi_processor.cpp.o" \
 "CMakeFiles/midiverse.dir/src/vst_renderer.cpp.o" \
 "CMakeFiles/midiverse.dir/src/audio_writer.cpp.o" \
-"CMakeFiles/midiverse.dir/src/server.cpp.o"
+"CMakeFiles/midiverse.dir/src/server.cpp.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o" \
+"CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o"
 
 # External object files for target midiverse
 midiverse_EXTERNAL_OBJECTS =
@@ -158,9 +398,25 @@ midiverse: CMakeFiles/midiverse.dir/src/midi_processor.cpp.o
 midiverse: CMakeFiles/midiverse.dir/src/vst_renderer.cpp.o
 midiverse: CMakeFiles/midiverse.dir/src/audio_writer.cpp.o
 midiverse: CMakeFiles/midiverse.dir/src/server.cpp.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_graphics/juce_graphics.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_events/juce_events.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_core/juce_core.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_data_structures/juce_data_structures.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o
+midiverse: CMakeFiles/midiverse.dir/lib/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o
 midiverse: CMakeFiles/midiverse.dir/build.make
 midiverse: CMakeFiles/midiverse.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable midiverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/pranavsharan/Developer/midiverse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable midiverse"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/midiverse.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

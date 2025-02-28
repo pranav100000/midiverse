@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  midiverse:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    # Default command will show help - override this when running
+    # Example: docker-compose run midiverse /app/input/test.mid /app/input/dummy.vst -o /app/output/result.wav
+    
+  # Special service for running Python scripts inside the container
+  py:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+    entrypoint: python3
